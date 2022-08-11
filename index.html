@@ -107,9 +107,9 @@
 <div class="progress"><div class="full"></div></div>
 </div>
 </body>
-<script src="Build/UnityLoader.js"></script>
+<script src="UnityLoader.js"></script>
 <script>
-  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Run3Edittor.json", {onProgress: UnityProgress});
+  var gameInstance = UnityLoader.instantiate("gameContainer", "Run3Edittor.json", {onProgress: UnityProgress});
   function UnityProgress(gameInstance, progress) {
     if (!gameInstance.Module) {
       return;
